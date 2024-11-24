@@ -1,0 +1,40 @@
+table {
+    width: 420px;
+    border-collapse: collapse;
+    text-align: center;
+    border: 3px solid black;
+}
+table,thead td, th{
+    border:3px solid black;
+}
+
+img {
+    width: 180px;
+    border-radius:50%;
+    float: left;
+    border: 4px solid gray;
+    position:relative;
+    transition: all 200ms , opacity 400ms;
+}
+
+thead{
+    background-color: #4D6D8F;
+    color: white;
+    font-family: Monospace;
+    text-decoration: underline;
+}
+
+tbody th{
+    background-color: #4D6D8F;
+    color:white;
+    border-bottom: 1px black solid;
+}
+
+tbody tr:nth-child(odd) td{
+    background-color: #FEFF63;
+    color:black;
+}
+
+tbody tr:nth-child(even) td{
+    background-color: white;
+}
