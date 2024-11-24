@@ -1,0 +1,17 @@
+* {
+    background-image: url("https://plusrubriek.nl/wp-content/uploads/2014/12/imgres-2.jpg");
+}
+
+#titel {
+    background-color: #283e4a;
+    width: 100%;
+    color: white;
+}
+
+#rand{
+    background-color: white;
+    color: blue;
+    float: left;
+    margin-right: 2%;
+    width: 28%;
+}
